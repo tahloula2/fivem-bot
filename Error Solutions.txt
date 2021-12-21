@@ -1,0 +1,53 @@
+Before moving on to the solutions, most users get an error due to not installing.
+You won't get any of these errors if you install it properly.
+
+How to install step-by-step page carefully prepared months ago --> https://github.com/MericcaN41/fivemsqlbot/wiki/Nas%C4%B1l-install%3F
+
+
+I did not read the installation, I am getting an error.
+----------------------------------------------------------
+
+'node' is not recognized as an internal or external command, operable program or batch file.
+
+You have not installed Node.js, which is the first step of the installation.
+
+Download link --> https://nodejs.org/dist/v14.15.5/node-v14.15.5-x64.msi
+
+----------------------------------------------------------
+
+cannot find module 'discord.js'
+
+You have not loaded the modules.
+
+Open CMD inside the folder and type this command.
+npm install
+
+----------------------------------------------------------
+zone end
+
+
+
+How do I open CMD in the folder???
+
+SHIFT + RIGHT CLICK on an empty area in the folder where the bot's files are located.
+Then you will see a button like "Open command window here" or "Open PowerShell here", click it.
+Your CMD is opened in the folder.
+
+----------------------------------------------------------
+
+Cannot read property '0' of undefined
+
+You are getting this error because your MySQL table names are different from those in the bot.
+If you carefully read the error you get, it usually gives the file that gave the error and its line at the end of the first line.
+To fix this error, you need to have some knowledge of MySQL.
+
+The MySQL section in connection.query() mentions the table name, for example "SELECT * FROM users" <-- users.
+Log into your database and look. The name of the Users table could be something different. I recommend you change the bot instead of the table name, otherwise your scripts may fail.
+
+Let's say the name of the 'users' table is changed to 'members'. (Total conjecture)
+Then we write "SELECT * FROM members" instead of "SELECT * FROM users", then we close and open the bot and our problem is fixed :)
+
+-------------------------------------------
+
+If you see green text in your error or if your error is not above, you can contact me on discord.
+MericcaN41#0652

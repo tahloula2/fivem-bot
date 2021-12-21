@@ -1,0 +1,15 @@
+{
+    "sql": {
+        "host": "localhost",
+        "user": "root",
+        "password": "",
+        "database": "forward"
+    },
+    "izinliRolid":"847696348412248076",
+    "sunucuID":"846774864978378772",
+    "wlLogID":"922859324366270494",
+    "whitelistlogWebhookURL":"https://discord.com/api/webhooks/922859348261212192/OD38XUFg-SvZeHMwUx4zw840KZv7PTCpMuHJpRHFt5DFt1-xpMaaIaOq2fSNHPOmTTrM",
+    "faturalogWebhookURL":"0",
+    "whitelistlogAktif":true,
+    "faturalogAktif":false
+}

@@ -1,0 +1,4 @@
+How do I install these?!?!?
+
+Put a "-" (dash) at the beginning of the names of existing scripts. EXAMPLE: -paraver.js (If you can't do this, you can delete it)
+Start the bot after you put the Extendedmode files in the commands folder.
